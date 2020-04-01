@@ -291,7 +291,6 @@ Resources:
           
           
       ImageId: ami-0d1cd67c26f5fca19
-      KeyName: webapp-key
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.small
